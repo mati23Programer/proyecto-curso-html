@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lamborghini</title>
+    <link rel="shortcut icon" href="/Proyecto final HTML/assets/img/lamborghini.ico" type="imagenes/x-icon"/>
+    <style>
+      body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #92a4ff;
+}
+
+h1 {
+  background-color: black;
+  padding: 10px;
+  margin: 0;
+  color: #92a4ff;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  background-color: #FFF;
+}
+
+td {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+  background-color: rgb(162, 162, 162);
+}
+
+.footer {
+  background-color: #333;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+</style>
+  </head>
+  <body>
+    <header>
+      <h1>Evolucion de la marca Lamborghini</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="preferencias.html">Preferencias</a></li>
+          <li><a href="audiovisual.html">Audiovisual</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2 style="margin: 15px;">Preferencias de Ferrucio Lamborghini</h2>
+    <div class="container">
+      <table>
+        <colgroup>
+        <col style="background-color: #da6c3d;">
+        <col>
+        <col>
+        <col>
+        <col>
+        </colgroup>
+        <th>Aspecto</th>
+        <th class="descripcion">Descripcion</th>
+        <tr>
+          <td>Pasion por los automoviles deportivos</td>
+          <td class="td">Lamborghini era apasionado por los automóviles de alto rendimiento y lujo.</td>
+        </tr>
+        <tr>
+          <td>Enfasis en la innovacion y diseño</td>
+          <td class="td">Buscaba destacarse no solo en rendimiento sino también en diseño vanguardista.</td>
+        </tr>
+        <tr>
+          <td>Competencia con Ferrari</td>
+          <td class="td">Su deseo de superar a Ferrari influyó en su enfoque en la excelencia y el rendimiento superior.</td>
+        </tr>
+        <tr>
+          <td>Origenes agricolas</td>
+          <td class="td">Su éxito previo en el negocio de tractores influyó en su atención a la calidad de la ingeniería.</td>
+        </tr>
+        <tr>
+          <td>Retiro y vida tranquila</td>
+          <td class="td">Después de vender la mayoría de las acciones, se retiró y disfrutó de una vida más tranquila.</td>
+        </tr>
+      </table>
+    </div>
+     <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+     </footer>
+  </body>
+</html>
